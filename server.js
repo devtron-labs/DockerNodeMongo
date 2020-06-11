@@ -3,7 +3,7 @@ const app = express();
 const mongodb = require('mongodb');
 
 const config = require('./db');
-const PORT = 4000;
+const PORT = 8080;
 const client = mongodb.MongoClient;
 
 client.connect(config.DB, function(err, db) {
