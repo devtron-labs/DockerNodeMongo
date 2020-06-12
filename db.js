@@ -1,3 +1,3 @@
 module.exports = {
-    DB: 'mongodb://mongo-db-dev-mongodb-replicaset-client:27017/resthub'
+    DB: 'mondo-dev-mongodb-replicaset-client:27017/resthub'
 }
